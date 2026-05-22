@@ -1,0 +1,80 @@
+body {
+    background: #f5f7fb;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.page-box,
+.info-card,
+.status-box,
+.login-box,
+.result-box {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50% !important;
+    border: 3px solid #000000;
+}
+
+.portal-profile {
+    border-right: 1px solid #dee2e6;
+}
+
+.home-link {
+    color: #0d6efd;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+}
+
+.home-link:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+.home-link.active {
+    font-weight: 600;
+}
+
+.page-text p,
+.text-justify {
+    text-align: justify;
+}
+
+.result-list dt {
+    font-weight: 600;
+}
+
+.result-list dd {
+    margin-bottom: 0.75rem;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.table-light th {
+    background: #efe2bb;
+}
+
+@media (max-width: 900px) {
+    .nav {
+        margin-top: 1rem;
+    }
+
+    .portal-profile {
+        border-right: 0;
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+}

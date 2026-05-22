@@ -1,0 +1,3 @@
+/php-server*.log
+/data/*
+!/data/.htaccess
